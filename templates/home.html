@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}" defer></script>
+    <title>Welcome to the Home Page</title>
+</head>
+<body class="home">
+    <!--<div class="background-image">
+        <img src="{{ url_for('static', filename='bg4.jpg') }}" alt="Background Image">
+    </div>-->
+    <div class="login-banner">
+        <!-- Update your login and register links/buttons here -->
+        <a href="{{ url_for('login') }}">Login</a>
+        <a href="{{ url_for('signup') }}">Register</a>
+    </div>
+    <h1>Welcome to Fluid</h1>
+    <p>A webpage that let's users personalize their own webpage.</p>
+    <button>Explore</button>
+</body>
+</html>

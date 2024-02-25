@@ -1,0 +1,61 @@
+/* styles.css */
+
+body.home {
+    font-family: 'Helvetica', sans-serif;
+    color: #333;
+    margin-top: 280px;
+    margin-left: 380px;
+    background-color: rgb(1, 0, 6);
+    transition: background-color 0.3s ease;
+    background-image: url('first-image.jpg');
+}
+
+body.home .login-banner {
+    position: fixed;
+    top: 0;
+    margin-top: 10px;
+    right: 0;
+    margin-left: 100px;
+    padding: 15px;
+    background-color: #fefefe;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Helvetica', sans-serif;
+}
+
+body.home .login-banner a {
+    color: rgb(0, 0, 0);
+    font-family: 'Helvetica', sans-serif;
+    margin-right: 10px; /* Adjust this value as needed */
+    text-decoration: none;
+}
+
+body.home p {
+    font-size: 20px;
+    line-height: 0.2;
+    margin-left: 90px;
+    font-family: 'Helvetica', sans-serif;
+    color: rgb(204, 206, 209);
+}
+
+body.home h1 {
+    color: #fcfdff;
+    font-size: 80px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+body.home button {
+    background-color: #af4c7c;
+    color: white;
+    padding: 10px 60px;
+    margin-left: 230px;
+    margin-top: 40px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+body.home.clicked {
+    background-image: url('12.png');
+}
